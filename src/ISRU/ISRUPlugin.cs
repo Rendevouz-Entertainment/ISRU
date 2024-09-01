@@ -41,7 +41,6 @@ public class ISRUPlugin : BaseSpaceWarpPlugin
     // AppBar button IDs
     internal const string ToolbarFlightButtonID = "BTN-ISRUFlight";
     internal const string ToolbarOabButtonID = "BTN-ISRUOAB";
-    internal const string ToolbarKscButtonID = "BTN-ISRUKSC";
 
     /// <summary>
     /// Runs when the mod is first initialized.
@@ -55,7 +54,7 @@ public class ISRUPlugin : BaseSpaceWarpPlugin
         // Load all the other assemblies used by this mod
         LoadAssemblies();
 
-        // Load the UI from the asset bundle
+        /*// Load the UI from the asset bundle
         var myFirstWindowUxml = AssetManager.GetAsset<VisualTreeAsset>(
             // The case-insensitive path to the asset in the bundle is composed of:
             // - The mod GUID:
@@ -114,7 +113,7 @@ public class ISRUPlugin : BaseSpaceWarpPlugin
             ToolbarKscButtonID,
             AssetManager.GetAsset<Texture2D>($"{ModGuid}/images/icon.png"),
             () => myFirstWindowController.IsWindowOpen = !myFirstWindowController.IsWindowOpen
-        );
+        );*/
     }
 
     /// <summary>
