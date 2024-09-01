@@ -1,0 +1,7 @@
+:parts #isru_vertical_drill {
+    +Module_Mining {
+        +Data_Mining {
+            
+        }
+    }
+}
