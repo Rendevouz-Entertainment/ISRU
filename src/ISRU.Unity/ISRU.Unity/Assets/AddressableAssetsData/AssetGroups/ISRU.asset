@@ -23,6 +23,16 @@ MonoBehaviour:
     m_SerializedLabels:
     - parts_data
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08dc17fbf09152f4b83c5a5d9247423d
+    m_Address: isru_vertical_drill_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07e59d1cf99493047b655bed2b9bcbb8
+    m_Address: isru_vertical_drill.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a6981b46a31ad724dbade0cc859e6f4a, type: 2}
   m_SchemaSet:

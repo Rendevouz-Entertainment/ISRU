@@ -17,4 +17,4 @@ MonoBehaviour:
   - isru_vertical_drill
   Values:
   - plugin_template/patches/%NAME%.patch
-  - plugin_template/patches/%NAME%.patch
+  - ../../../../plugin_template/patches/%NAME%.patch
